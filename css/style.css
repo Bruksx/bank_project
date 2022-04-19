@@ -1,0 +1,43 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    border: 2px solid red;
+    display: flex;
+}
+
+.link-container{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+#link-top{
+    display: flex;
+    list-style: none;
+    height: 40%;
+    background-color:  #993399;
+    margin-top: 0px;
+}
+
+#link-top li{
+    margin-right: 30px;
+}
+
+#link-bottom{
+    display: flex;
+    list-style: none;
+    height: 60%;
+}
+
+#link-bottom li{
+    margin-right: 30px;
+}
+
+.img-container{
+    text-align: center;
+    width: 30%;
+}
