@@ -50,6 +50,7 @@ nav{
 #link-bottom{
     border: 2px solid black;
     display: flex;
+    align-items: baseline;
     list-style: none;
     height: 50%;
     margin-top: -15px;
@@ -59,8 +60,8 @@ nav{
 
 #link-bottom li{
     margin-right: 0px;
-    width: 300px;
     bottom: 10px;
+    width: 5%;
 }
 
 #link-bottom li a{
