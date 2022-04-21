@@ -226,3 +226,38 @@ nav{
     color: rgb(0, 153, 255);
     transition: 0.5s;
 }
+
+/* play button */
+.play{
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    border-radius: 40px;
+    background-color: rgb(0, 153, 255);
+    text-align: center;
+    width: 65px;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px rgb(0, 0, 26);
+    display: flex;
+    overflow: hidden;
+}
+
+.play:hover{
+    width: 180px;
+    transition: 0.7s;
+}
+
+.play i{
+    font-size: 50px;
+    color: white;
+    margin: 5px 0px;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.play span{
+    width: 250px;
+    color: aliceblue;
+    margin: auto 0px;
+}
