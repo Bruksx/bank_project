@@ -69,9 +69,9 @@ nav a{
 }
 
 #banner .text a{
-    width: 25%;
+    width: 32%;
     height: fit-content;
-    padding: 0px;
+    padding: 7px;
     margin: 0px auto;
     text-align: justify;
 }
@@ -131,3 +131,13 @@ footer .footer-container .copyright{
     margin: 0px;
 }
 
+/* fixed button */
+.play{
+    width: 50px;
+    height: 50px;
+    left: 10px
+}
+
+.play i{
+    font-size: 40px;
+}
