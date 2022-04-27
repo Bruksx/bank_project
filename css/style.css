@@ -364,6 +364,7 @@ footer .footer-container{
 
 .footer-container > li{
     width: 35%;
+    background-color: inherit;
 }
 
 .copyright{
@@ -371,9 +372,6 @@ footer .footer-container{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.copyright span{
 }
 
 .link-con{
@@ -393,7 +391,7 @@ footer .footer-container{
     justify-content: center;
 }
 
-.icon-con{
+footer .icon-con{
     width: 50%;
 }
 
