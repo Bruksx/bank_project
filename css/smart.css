@@ -1,0 +1,94 @@
+nav{
+    background-color: rgb(230, 245, 255);
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav .link-container{
+    display: none;
+}
+
+.img-container{
+    width: 35%;
+}
+
+.img-container img{
+    width: 100px;
+}
+
+.row-center{
+    align-self: center;
+}
+
+.icon-con{
+    text-align: center;
+    border: 1px solid rgb(148, 184, 184);
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    line-height: 10px;
+    color: rgb(51, 51, 255);
+}
+
+.icon-con i{
+    margin: 5px 0px;
+}
+
+nav a{
+    border: 1px solid rgb(148, 184, 184);
+    background-color: rgb(51, 51, 255);
+    border-radius: 20px;
+    width: 70px;
+    padding: 5px 0px;
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+/* banner */
+#banner{
+    display: flex;
+    padding: 0px;
+    width: 100%;
+}
+
+#banner .login-form{
+    display: none;
+}
+
+#banner .text{
+    width: 100%;
+    text-align: center;
+}
+
+#banner .text h2{
+    font-size: x-large;
+    margin-right: 0px;
+}
+
+#banner .text a{
+    width: 25%;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px auto;
+    text-align: justify;
+}
+
+/* gallery */
+.gallery{
+    border: 2px solid red;
+}
+
+.gallery .row{
+    flex-wrap: nowrap;
+    width: 100%; !important
+    flex-direction: row;
+}
+
+.gallery .row .pic{
+    display: inline-block;
+    width: 100%;
+    border: 1px solid orange;
+}
