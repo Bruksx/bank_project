@@ -79,11 +79,12 @@ nav a{
 /* gallery */
 .gallery{
     border: 2px solid red;
+    overflow: hidden;
 }
 
 .gallery .row{
     flex-wrap: nowrap;
-    width: 100%; !important
+    width: 100%;
     flex-direction: row;
 }
 
