@@ -26,14 +26,14 @@ nav .icon-con{
     text-align: center;
     border: 1px solid rgb(148, 184, 184);
     border-radius: 50%;
-    width: 28px;
-    height: 28px;
+    width: 35px;
+    height: 35px;
     line-height: 10px;
     color: rgb(51, 51, 255);
 }
 
 nav .icon-con i{
-    margin: 5px 0px;
+    margin: 9px 0px;
 }
 
 nav a{
