@@ -4,6 +4,10 @@ body{
     margin: 0px;
 }
 
+.smart{
+    display: none;
+}
+
 nav{
     display: flex;
     top: 0px;
@@ -80,7 +84,7 @@ nav .search:focus{
     margin-right: 5px;
 }
 
-#link-bottom{
+.link-container #link-bottom{
     display: flex;
     align-items: baseline;
     list-style: none;
